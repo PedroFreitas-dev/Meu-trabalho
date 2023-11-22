@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Cadastro</title>
+
+    <script>
+        function enviarform() {
+            alert ("Formulário enaviado com sucesso!");
+        }
+    
+    </script>
+
+</head>
+    <body>
+        
+        <div class="form">
+            <form method="post" action="dados.php">
+                <h1>Registre-se</h1>
+
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" name="nome_completo" placeholder="Nome Completo" id="nome_completo" required>
+                        <i class="bx bxs-user"></i>
+                    </div>
+                    
+                    <div class="input-field">
+                        <input type="text" name="nome_de_usuario" placeholder="Nome de usuário" id="nome_de_usuario" required>
+                        <i class="bx bxs-user"></i>
+                    </div>
+                    
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input type="email" name="email1" placeholder="Email" id="email1" required>
+                            <i class="bx bxs-envelope"></i>
+                        </div>
+                        
+                        <div class="input-field">
+                            <input type="email" name="email2" placeholder="Confime seu email" id="email2" required>
+                            <i class="bx bxs-envelope"></i>
+                    </div>
+                        
+                    <div class="input-box">
+                            <div class="input-field">
+                                <input type="password" name="senha1" placeholder="Senha" id="senha1" required>
+                                <i class="bx bxs-lock-alt"></i>
+                            </div>
+                            
+                            <div class="input-field">
+                                <input type="password" name="senha2" placeholder="Confime sua senha" id="senha2" required>
+                                <i class="bx bxs-lock-alt"></i>
+                    </div>
+                </div> 
+                
+                <label><input type="checkbox">Não sou um rôbo</label>
+                
+                <input type="submit" class="btn">
+            </form>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Heebo:wght@200&family=Noto+Sans:ital,wght@0,400;1,200&family=Roboto+Slab:wght@100;400&family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(imagem/background\ site.jpg);
+    background-repeat: none;
+    background-position: center;
+    font-family: 'DM Mono', sans-serif;
+}
+
+.cor {
+    color: white;
+}
+
+.header {
+    background-color: #04aad0;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #004aad;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.menu, .logo {
+    padding: 10px;
+}
+
+.menu a, .menu a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: #04aad0;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.posts {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.data {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+h2 {
+    color: #0a10ba;
+    padding: 20px 0 0 0;
+}
+
+.barra-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3 {
+    background-color: #04aad0;
+    color: white;
+    padding: 5px;
+}
+
+.post-destaque {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid lightslategray;
+}
+
+.post-destaque:last-child {
+    border: none;
+}
+
+.footer {
+    clear: both;
+    background-color: #004aad;
+    padding: 15px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
